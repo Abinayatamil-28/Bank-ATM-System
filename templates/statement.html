@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statement Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/statement.css') }}">
+    <style>
+        /* Additional CSS styles can be added here */
+    </style>
+</head>
+<body>
+    <center>
+        <form action="/statement" method="POST"> 
+            <label>ACCOUNT NUMBER</label>
+            <input type="text" name="account_number" placeholder="Account number" required>
+            <label>FROM DATE</label>
+            <input type="date" name="from_date" required>
+            <input type="date" name="to_date" required> 
+            <label>Export Type</label>
+            <select name="export_type" required> 
+                <option value="" disabled selected>Select Export Type</option>
+                <option value="pdf">PDF</option>
+                <option value="csv">CSV</option>
+            </select>
+            <button type="submit">Download</button> 
+        </center>
+    </form>
+</body>
+</html>

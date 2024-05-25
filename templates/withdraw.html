@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Withdraw Page</title>
+    <link rel="stylesheet" href="{{url_for('static',filename="css/withdraw.css")}}">
+    <style>
+        
+    </style>
+
+</head>
+<body>
+    <center>
+        <form method="POST" action="/withdraw" autocomplete="off">
+            <label for="account_number">ACCOUNT-NUMBER</label>
+            <input type="text" name="account_number" id="account_number" required> 
+            <label for="amount">AMOUNT</label>
+            <input type="text" name="amount" id="amount" required> 
+            <button type="submit">WITHDRAW</button>
+            <br><br>
+            <a href="/">BACK</a>
+        </form>
+    </center>
+</body>
+</html>

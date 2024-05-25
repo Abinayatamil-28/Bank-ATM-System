@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Henny+Penny&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tillana:wght@400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Allura", cursive;
+    cursor:default;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/dep.jpg");
+ 
+}
+
+form{
+    width: 25rem;
+    height:28rem;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255,255,255,0.06);
+    box-shadow: 0 8px 32px 0 rgb(66, 64, 64);
+    border-radius: 25px;
+    border-left: 1px solid rgba(255,255,255,.3);
+    border-top: 1px solid rgba(255,255,255,.3);
+    
+}
+
+h1{
+    font-size: 45px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+    color: white;
+    letter-spacing: 3px;
+    margin-bottom: 5%;
+    opacity:.7;
+}
+label{
+    font-size: 33px;
+    color: rgb(248, 9, 216);
+    margin-left: 10%;
+    text-shadow:2px 2px 4px rgba(0,0,0,.2);
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input{
+    width: 80%;
+    margin: 5% auto;
+    margin-bottom: 8%;
+    border: none;
+    outline:none;
+    background: transparent;
+    color:white;
+    border-bottom: 2px solid rgba(253, 249, 249, 0.973);
+    font-size: 15px;
+    font-weight: 500;
+}
+button{
+    width: 50%;
+    margin:3% auto;
+    color: rgb(111, 5, 160);
+    font-size: 29px;
+    opacity:.7;
+    background: rgba(255, 255, 255, 0.945);
+    border: none;
+    outline: none;
+    border-radius:20px ;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.315);
+    box-shadow: 3px 3px 5px rgba(31,38,135,.37);
+    border-left: 1px solid rgba(255,255,255,.3);
+    border-top: 1px solid rgba(255,255,255,.3);
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+h5{
+    text-align: center;
+    color: blueviolet;
+    font-size: larger;
+    font-weight: 500;
+}
+a{
+    font-size: 27px;
+    color: rgb(240, 6, 248);
+    text-align: center;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

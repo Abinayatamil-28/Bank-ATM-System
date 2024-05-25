@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="static/css/signu.css">
+</head>
+<body>
+    <div class="container">
+        <form id="signupForm" action="/signup" method="POST" autocomplete="off">
+            <h1>SIGNUP</h1>
+            <label>Username</label>
+            <input type="text" name="username" required>
+            <label>Password</label>
+            <input type="password" name="password" required>
+            <label>Account Number</label>
+            <input type="text" name="account_number" required>
+            <button type="submit">SIGNUP</button>
+
+            <h5>Registered user? <a href="/login">Login</a></h5>
+
+            <div id="notification"></div>
+        </form>
+    </div>
+
+    <script src="static/css/js/signup.js"></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    cursor:default;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/pg5.jpeg")
+    ;
+    margin-right: auto;
+}
+
+form{
+    width: 25rem;
+    height:28rem;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255,255,255,0.06);
+    box-shadow: 0 8px 32px 0 rgb(66, 64, 64);
+    border-radius: 25px;
+    border-left: 1px solid rgba(255,255,255,.3);
+    border-top: 1px solid rgba(255,255,255,.3);
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+    color: white;
+    letter-spacing: 3px;
+    margin-bottom: 5%;
+    opacity:.7;
+}
+label{
+    font-size: 15px;
+    color: rgb(9, 45, 248);
+    margin-left: 10%;
+    text-shadow:2px 2px 4px rgba(0,0,0,.2);
+}
+
+input{
+    width: 80%;
+    margin: 5% auto;
+    margin-bottom: 8%;
+    border: none;
+    outline:none;
+    background: transparent;
+    color:rgb(7, 7, 7);
+    border-bottom: 2px solid rgba(10, 10, 10, 0.06);
+    font-size: 15px;
+}
+button{
+    width: 50%;
+    margin:3% auto;
+    color: rgb(161, 6, 109);
+    font-size: px;
+    opacity:.7;
+    background: rgba(248, 82, 5, 0.267);
+    border: none;
+    outline: none;
+    border-radius:20px ;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.671);
+    box-shadow: 3px 3px 5px rgba(230, 229, 228, 0.37);
+    border-left: 1px solid rgba(255,255,255,.3);
+    border-top: 1px solid rgba(255,255,255,.3);
+}
+h5{
+    text-align: center;
+    color: blueviolet;
+    font-size: larger;
+}
+a{
+    font-size: 20px;
+    color: rgb(247, 1, 255);
+    text-align: center;
+}
+body   
+    {
+        background:url("images/pg5.jpeg");
+        background-size:100%;
+        background-attachment: fixed;
+        filter: brightness(0.5);
+    }
+    
+    select{
+        width: 80%;
+        margin: 3% auto;
+        margin-bottom: 6%;
+        border: none;
+        outline:none;
+        background: transparent;
+        color:black;
+        border-bottom: 2px solid rgb(252, 248, 248);
+        font-size: 15px;
+    }
