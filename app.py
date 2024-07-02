@@ -73,7 +73,7 @@ def login():
         if existing_user:
             return render_template("BANKHOME.html")
         else:
-            return "Invalid username or password"
+            return "Invalid username or password, Please enter valid credentials"
     else:
         return render_template("BANKLOGIN.html")
 
